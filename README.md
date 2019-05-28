@@ -26,11 +26,17 @@ If you use the computer camera, you may need to install usb_cam ROS package and 
 
     roslaunch usb_cam usb_cam-test.launch
 Then you can choose between:
-- SORT
+- SORT  
+
+
 To run:
 
     roslaunch sort_track sort_track.launch
+    
+    
 - DEEP SORT
+
+
 Before running go to catkin_workspace/src/sort_track/src and open tracker_deep.py
 In line 90, modify model_filename to your directory
 To run:
