@@ -9,8 +9,11 @@ In order to install darknet_ros, clone the latest version using SSH (see [how to
     git clone --recursive git@github.com:leggedrobotics/darknet_ros.git
     cd ../
     catkin build darknet_ros
+In order to install sort_track, clone this repository in your catkin workspace and compile the package using ROS
 
-
+    cd src
+    git clone https://github.com/ilyas95/sort-deepsort-yolov3-ROS
+    catkin build sort_tracker
 
 ## Disclaimer
 
