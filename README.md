@@ -15,7 +15,9 @@ In order to install sort_track, clone this repository in your catkin workspace a
     git clone https://github.com/ilyas95/sort-deepsort-yolov3-ROS
     catkin build sort-deepsort-yolov3-ROS
    
-## How to use   
+## How to use  
+Remember to source your workspace in every new terminal window by using
+    source ~/catkin_workspace/devel/setup.bash
 1) SORT
 2) DEEP SORT
 ## Disclaimer
