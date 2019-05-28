@@ -22,6 +22,9 @@ Remember to source your workspace in every new terminal window by using
 Run darknet_ros detector (For my project I used mainly YOLOv3-tiny but it should work for the other YOLOs)
     
     roslaunch darknet_ros yolo_v3-tiny.launch
+If you use the computer camera, you may need to install usb_cam ROS package and run:
+
+    roslaunch usb_cam usb_cam-test.launch
 Then you can choose between:
 - SORT
 To run:
