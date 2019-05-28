@@ -1,5 +1,8 @@
 # YOLO + SORT/DEEP SORT for ROS
-Tracker ROS node (sort and deep sort) using darknet_ros (YOLOv3)
+Tracker ROS node (sort and deep sort) using darknet_ros (YOLOv3).
+Detected bounding boxes from YOLO are used by the sort tracker.
+
+## Usage
 
 
 
