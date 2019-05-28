@@ -13,7 +13,7 @@ In order to install sort_track, clone this repository in your catkin workspace a
 
     cd src
     git clone https://github.com/ilyas95/sort-deepsort-yolov3-ROS
-    catkin build sort-deepsort-yolov3-ROS
+    catkin build sort_track
    
 ## How to use  
 Remember to source your workspace in every new terminal window by using
