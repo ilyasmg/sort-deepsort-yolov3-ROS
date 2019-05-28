@@ -23,11 +23,11 @@ Run darknet_ros detector (For my project I used mainly YOLOv3-tiny but it should
     
     roslaunch darknet_ros yolo_v3-tiny.launch
 Then you can choose between:
-1) SORT
+- SORT
 To run:
 
     roslaunch sort_track sort_track.launch
-2) DEEP SORT
+- DEEP SORT
 Before running go to catkin_workspace/src/sort_track/src and open tracker_deep.py
 In line 90, modify model_filename to your directory
 To run:
