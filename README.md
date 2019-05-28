@@ -2,7 +2,13 @@
 Tracker ROS node (sort and deep sort) using darknet_ros (YOLOv3).
 Detected bounding boxes from YOLO are used by the sort tracker.
 
-## Usage
+## Installation
+In order to install darknet_ros, clone the latest version using SSH (see [how to set up an SSH key](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)) into your catkin workspace and compile the package using ROS.
+
+    cd catkin_workspace/src
+    git clone --recursive git@github.com:leggedrobotics/darknet_ros.git
+    cd ../
+    catkin build darknet_ros
 
 
 
