@@ -17,9 +17,27 @@ In order to install sort_track, clone this repository in your catkin workspace a
    
 ## How to use  
 Remember to source your workspace in every new terminal window by using
+
     source ~/catkin_workspace/devel/setup.bash
+Run darknet_ros detector (For my project I used mainly YOLOv3-tiny but it should work for the other YOLOs)
+    
+    roslaunch darknet_ros yolo_v3-tiny.launch
+Then you can choose between:
 1) SORT
+To run:
+
+    roslaunch sort_track sort_track.launch
 2) DEEP SORT
+Before running go to catkin_workspace/src/sort_track/src and open tracker_deep.py
+In line 90, modify model_filename to your directory
+To run:
+
+    roslaunch sort_track sort_track_deep.launch
+
+## Problems to solve
+1) In both trackers sort and deep sort the last tracked bounding box remains even when there is no detection
+2) For SORT, publishing the bounding box and ID results doesn't work
+3) For DEEP SORT, everything works but there is a small delay in the sort video
 ## Disclaimer
 
 This project is using code from:
