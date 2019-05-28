@@ -1,4 +1,4 @@
-# sort-deepsort-yolov3-ROS
+# YOLO + SORT/DEEP SORT for ROS
 Tracker ROS node (sort and deep sort) using darknet_ros (YOLOv3)
 
 
