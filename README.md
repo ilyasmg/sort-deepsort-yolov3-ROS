@@ -25,6 +25,7 @@ Run darknet_ros detector (For my project I used mainly YOLOv3-tiny but it should
 If you use the computer camera, you may need to install usb_cam ROS package and run this before running darknet_ros node:
 
     roslaunch usb_cam usb_cam-test.launch
+If you still have Waiting for image. message, try to see in the file ros.yaml what is the camera topic
 Then you can choose between:
 - SORT  
 
