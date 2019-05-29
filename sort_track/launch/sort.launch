@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="sort_track" pkg="sort_track" type="track.py" output="screen">
+    <rosparam command="load" file="$(find sort_track)/launch/sort.yaml"/>
+  </node>
+</launch>
