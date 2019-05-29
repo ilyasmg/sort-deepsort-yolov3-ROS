@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-
-<launch>
-  <node name="sort_track" pkg="sort_track" type="tracker_deep.py" output="screen">
-    <rosparam command="load" file="$(find sort_track)/launch/sort_track_deep.yaml"/>
-  </node>
-</launch>
