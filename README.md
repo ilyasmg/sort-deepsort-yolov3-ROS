@@ -43,6 +43,9 @@ In line 90, modify model_filename to your directory
 To run:
 
     roslaunch sort_track sort_deep.launch
+IMPORTANT!! Before running the tracker nodes, you have to make the python scripts executable.
+For SORT, go to catkin_workspace/src/sort-deepsort-yolov3-ROS/sort_track/src and make track.py executable.
+For DEEP SORT, go to the same folder and make track_deep.py executable.
 
 ## Problems to solve
 1) In both trackers sort and deep sort the last tracked bounding box remains even when there is no detection
