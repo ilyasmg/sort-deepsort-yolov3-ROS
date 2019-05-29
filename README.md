@@ -32,17 +32,17 @@ Then you can choose between:
 
 To run:
 
-    roslaunch sort_track sort_track.launch
+    roslaunch sort_track sort.launch
     
     
 - DEEP SORT
 
 
-Before running go to catkin_workspace/src/sort_track/src and open tracker_deep.py
+Before running go to catkin_workspace/src/sort_track/src and open track_deep.py
 In line 90, modify model_filename to your directory
 To run:
 
-    roslaunch sort_track sort_track_deep.launch
+    roslaunch sort_track sort_deep.launch
 
 ## Problems to solve
 1) In both trackers sort and deep sort the last tracked bounding box remains even when there is no detection
