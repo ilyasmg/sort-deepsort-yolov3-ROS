@@ -51,6 +51,7 @@ For DEEP SORT, go to the same folder and make track_deep.py executable.
 1) In both trackers sort and deep sort the last tracked bounding box remains even when there is no detection
 2) For SORT, publishing the bounding box and ID results doesn't work
 3) For DEEP SORT, everything works but there is a small delay in the sort video
+I will try to solve them in the future, but if you find a solution or ways to improve this repository a pull request is always welcome!
 ## Disclaimer
 
 This project is using code from:
