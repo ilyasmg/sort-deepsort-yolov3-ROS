@@ -47,13 +47,6 @@ IMPORTANT!! Before running the tracker nodes, you have to make the python script
 For SORT, go to catkin_workspace/src/sort-deepsort-yolov3-ROS/sort_track/src and make track.py executable.
 For DEEP SORT, go to the same folder and make track_deep.py executable.
 
-## Problems to solve
-1) In both trackers sort and deep sort the last tracked bounding box remains even when there is no detection
-2) For SORT, publishing the bounding box and ID results doesn't work
-3) For DEEP SORT, everything works but there is a small delay in the sort video
-
-
-I will try to solve them in the future, but if you find a solution or ways to improve this repository a pull request is always welcome!
 ## Disclaimer
 
 This project is using code from:
