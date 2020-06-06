@@ -1,6 +1,7 @@
-# YOLO + SORT/DEEP SORT for ROS
+# YOLO + SORT/DEEP SORT for ROS (not maintained anymore)
 Tracker ROS node (sort and deep sort) using darknet_ros (YOLOv3).
-Detected bounding boxes from YOLO are used by the sort tracker.
+Detected bounding boxes from YOLO are used by the sort tracker.  
+This has been done using ROS Kinetic, python2 and OpenCV2. If you need a modern ros wrapper for SORT, you should use newer versions of ROS, OpenCV and python.
 
 ## Installation
 In order to install darknet_ros, clone the latest version using SSH (see [how to set up an SSH key](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)) into your catkin workspace and compile the package using ROS.
