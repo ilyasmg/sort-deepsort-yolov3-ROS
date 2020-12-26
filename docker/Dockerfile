@@ -10,5 +10,7 @@ RUN apt-get update && apt-get install -y \
   ros-kinetic-opencv3 \
   ros-kinetic-cv-bridge \
   ros-kinetic-image-transport \
-  ros-kinetic-usb-cam
+  ros-kinetic-usb-cam \
+  python-pip
 
+RUN echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
