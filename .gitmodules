@@ -1,0 +1,6 @@
+[submodule "sort_track/src/sort"]
+	path = sort_track/src/sort
+	url = https://github.com/abewley/sort.git
+[submodule "sort_track/src/deep_sort"]
+	path = sort_track/src/deep_sort
+	url = https://github.com/nwojke/deep_sort.git
