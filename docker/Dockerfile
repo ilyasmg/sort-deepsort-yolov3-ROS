@@ -1,16 +1,15 @@
-FROM ros:kinetic
+FROM ros:noetic
 
 SHELL ["/bin/sh", "-c"]
 
 RUN apt-get update && apt-get install -y \
   cmake \
   libx11-dev \
-  python-catkin-tools \
-  ros-kinetic-catkin \
-  ros-kinetic-opencv3 \
-  ros-kinetic-cv-bridge \
-  ros-kinetic-image-transport \
-  ros-kinetic-usb-cam \
-  python-pip
+  python3-catkin-tools \
+  python3-pip \
+  ros-noetic-catkin \
+  ros-noetic-vision-opencv \
+  ros-noetic-image-transport
 
-RUN echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+RUN pip3 install osrf-pycommon
+
