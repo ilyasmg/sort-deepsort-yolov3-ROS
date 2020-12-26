@@ -2,6 +2,8 @@
 Tracker ROS node (sort and deep sort) using darknet_ros (YOLOv3).
 Detected bounding boxes from YOLO are used by the sort tracker.  
 This has been done using ROS Kinetic, python2 and OpenCV2. If you need a modern ros wrapper for SORT, you should use newer versions of ROS, OpenCV and python.
+### Help needed
+The branch ```ros-noetic``` is a tentative to make it compatible with Python3, ROS Noetic and OpenCV4
 
 
 ## Docker installation
