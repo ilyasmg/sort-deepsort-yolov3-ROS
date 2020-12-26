@@ -12,7 +12,7 @@ You can use the docker container to build and run the code.
 Clone the repositories outside the container and mount the volume with the src to the container.
 
 ## Installation
-In order to install darknet_ros, clone the latest version using SSH (see [how to set up an SSH key](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)) into your catkin workspace and compile the package using ROS.
+In order to install darknet_ros, clone the latest version into your catkin workspace and compile the package using ROS.
 
     cd catkin_workspace/src
     git clone --recursive https://github.com/leggedrobotics/darknet_ros.git
