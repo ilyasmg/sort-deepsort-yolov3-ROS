@@ -96,12 +96,11 @@ def main():
 	#Subscribe to darknet_ros to get BoundingBoxes from YOLOv3
 	sub_detection = rospy.Subscriber(detection_topic, BoundingBoxes , callback_det)
 	while not rospy.is_shutdown():
-	#Publish results of object tracking
-	pub_trackers = rospy.Publisher(tracker_topic, IntList, queue_size=10)
-	print(msg)
-	pub_trackers.publish(msg)
-	rate.sleep()
-	#rospy.spin()
+		#Publish results of object tracking
+		pub_trackers = rospy.Publisher(tracker_topic, IntList, queue_size=10)
+		print(msg)
+		pub_trackers.publish(msg)
+		rate.sleep()
 
 
 if __name__ == '__main__':
